@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The dependencies for the project are:
 
-Material UI v4. In order to work with MUI v.4 the React version was switched for react@16.13.1 react-dom@16.13.1
+Material UI (core, lab and icons) v4. In order to work with MUI v.4 the React version was switched for react@16.13.1 react-dom@16.13.1
 Millify,
 React Router, MSW
 
