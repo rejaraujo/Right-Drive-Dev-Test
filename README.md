@@ -2,7 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-The dependencies for the project are: Material UI, Millify, React Router, MSW
+The dependencies for the project are:
+
+Material UI v4. In order to work with MUI v.4 the React version was switched for react@16.13.1 react-dom@16.13.1
+Millify,
+React Router, MSW
 
 API:
 
