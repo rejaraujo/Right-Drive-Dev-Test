@@ -1,70 +1,91 @@
 # FrontEnd React Crypto App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template. It also uses the Material UI libray.
+Welcome to the React Crypto App! This project was created using `Create React App`, incorporating the power of `Redux` and the convenience of `Redux Toolkit`. The user interface is enhanced with the `Material UI library`.
 
-## Available Scripts
+## GitHub Actions Status
 
-In the project directory, you can run:
+![Node.js badge](https://github.com/rejaraujo/Right-Drive-Dev-Test/actions/workflows/node.js.yml/badge.svg)
 
-### `npm start`
+![Delopy badge](https://github.com/rejaraujo/Right-Drive-Dev-Test/actions/workflows/preview.yaml/badge.svg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Delopy badge](https://github.com/rejaraujo/Right-Drive-Dev-Test/actions/workflows/production.yaml/badge.svg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To experience the app, you have two options:
 
-Launches the test runner in the interactive watch mode.\
+a) Explore on Vercel (Production):
 
-### `npm run build`
+- Access the live app: [React Crypto App on Vercel](https://right-drive-dev-test-roan.vercel.app/)
+- Inspect the GtiHub Repository: [Right-Drive-Dev-Test](https://github.com/rejaraujo/Right-Drive-Dev-Test)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+b) To run the app locally, follow these steps:
 
-### `npm run eject`
+- Install project depedencies: `npm install`
+- Start the development server: `npm start`
+
+This command launches the app in development mode and automatically opens it in your default web browser at [http://localhost:3000](http://localhost:3000).
+
+## Testing
+
+You can run tests using the following command: `npm test`
+
+This command initiates the test runner in interactive watch mode, allowing you to continuously monitor and test your code.
+
+## Building for Production
+
+When you are ready to deploy the app, build it for production with: `npm run build`. This command bundles React in production mode and optimizes the build for optimal performance. The resulting production-ready files will be placed in the `build` folder.
+
+## Ejecting
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you find yourself needing more control over the build tool and configuration, you can eject your project using the following command: `npm run eject`
 
 ## Screenshots
 
-|                  Desktop                  |
-| :---------------------------------------: | :----------------------------------------: |
-| ![Desktop Design](/public/CardDesign.png) | ![Desktop Design](/public/ListDesing.pngg) |
+### Desktop:
 
-|                    Desktop                     |
-| :--------------------------------------------: | :-----------------------------------------------: |
-| ![Mobile Design](/public/MobileCardDesign.png) | ![Mobile Design](/public/Mobile%20ListDesign.png) |
+`Card view`
 
-##### File Strucutre
+![Desktop Design](/public/CardDesign.png)
 
-.
-|-- test
-|-- app
-|-- components
-|-- features
-|-- mocks
-|-- style
-`-- public
+`List view`
 
-test
-Here you will find the suite written with RTL and Jest.
+![Desktop Design](/public/ListDesign.png)
 
-components
+### Mobile:
 
-Here you'll find reusable blocks of React components.
+`Card view`
 
-style
+![Mobile Design](/public/MobileCardDesign.png)
 
-Here you'll find the sylesheet for the project.
+`List view`
 
-public
+![Mobile Design](/public/Mobile%20ListDesign.png)
 
-Here you'll find all the images.
+## File Structure
+
+```text
+
+├── public
+└── src
+    ├── __test__
+    ├── app
+    ├── components
+    ├── features
+    │   ├── services
+    │   └── slices
+    │       ├── pagination
+    │       └── switchView
+    ├── mocks
+    └── style
+```
+
+- `test`: Contains test suites written using RTL and Jest.
+- `app`: Main application logic and setup.
+- `components`: Reusable React component blocks.
+- `features`: Organized feature-specific code.
+- `mocks`: Mock data and utilities.
+- `style`: Stylesheets for the project.
+- `public`: Image assets and other publicly accessible files.
